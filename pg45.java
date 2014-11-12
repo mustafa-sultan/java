@@ -4,7 +4,7 @@
 
 public class pg45
 {
-  public static void main (Strin[] args)
+  public static void Main (String[] args)
   {
     Scanner = input = new Scanner (System.in); // scanner
     
