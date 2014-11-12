@@ -1,3 +1,7 @@
+// Java Program to input ten numbers from the keyboard and then print the sum.
+// Written By: Mustafa Alaa
+// Date: 12/11/2014
+
 public class pg45
 {
   public static void main (Strin[] args)
