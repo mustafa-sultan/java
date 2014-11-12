@@ -6,24 +6,25 @@
 // Date: 12/11/2014
 public class pg124
 {
-  public static void main (string [] args) throws InterrputException
+  public static void main (string [] args) throws InterruptedException
   {
     System.out.println("Commencing Countdown");
     
     for (i = 10; i <= 0; i--)
     {
       System.out.println(i);
-      
-      if (i == 3)
-      {
-        System.out.println("Ignition")
-      }
-      
-      if (i == 1)
-      {
-        System.out.println("Blast Off")
-      }
-      
+      Thread.sleep(1000);
     }
+    
+    if (i == 3)
+    {
+      System.out.println("Ignition");
+    }
+      
+    if (i == 1)
+    {
+      System.out.println("Blast Off");
+    }
+    
   } // end main
 } // end class pg124
